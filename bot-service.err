@@ -1,0 +1,1713 @@
+2026-10-23 09:27:26,109 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:27:26,739 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:27:32,696 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:27:33,393 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:27:39,221 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:27:39,845 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:27:45,691 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:27:46,263 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:27:51,994 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:27:52,535 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:27:58,461 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:27:59,016 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:28:04,968 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:28:05,515 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:28:11,608 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:28:12,155 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:28:17,957 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:28:18,653 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:28:24,438 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:28:24,989 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:28:30,693 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:28:31,232 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:28:36,928 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:28:37,574 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+Traceback (most recent call last):
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 865, in initialize
+    await self.get_me()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 2040, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 1005, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 103, in <module>
+    main()
+    ~~~~^^
+  File "/home/bams/bot-toko/hadeethenc-bot/v2/main.py", line 99, in main
+    app.run_polling(allowed_updates=["message", "callback_query"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bams/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/ext/_extbot.py", line 324, in initialize
+    await super().initialize()
+  File "/home/bams/.hermes/installs/588b2862e67b05dc/environments/f8e024453754414398735d6ab7473716/venv/lib/python3.14/site-packages/telegram/_bot.py", line 868, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `***` was rejected by the server.
+2026-10-23 09:50:20,075 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:50:24,720 - telegram.ext.Application - INFO - Application started
+2026-10-23 09:57:56,818 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2026-10-23 09:57:56,818 - telegram.ext.Application - INFO - Application.stop() complete
+2026-10-23 09:57:57,462 - __main__ - INFO - Bot Hadeeth v2 mulai berjalan...
+2026-10-23 09:57:58,758 - telegram.ext.Application - INFO - Application started
+2026-10-23 16:34:34,616 - __main__ - ERROR - Error: TimedOut: Timed out
+2026-10-23 22:21:47,031 - __main__ - ERROR - Error: NetworkError: httpx.ReadError: 
+2026-10-24 08:12:30,632 - __main__ - ERROR - Error: NetworkError: Bad Gateway
